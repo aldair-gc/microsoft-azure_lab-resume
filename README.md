@@ -26,3 +26,40 @@ This repository contains the brief notes of what was leaned at DIO development l
 
 <img alt="NextLevelWeek" title="#NextLevelWeek" src="./shared_responsability_model.png" />
 
+## Azure Architecture Components
+
+- Regions:
+    - Possibility to choose where to create resources;
+    - There are price and availability differences between regions;
+    - Regions are composed of a group of datacenters.
+- Availability Zones:
+    - Inactivity and datacenter failure protection;
+    - Datacenter’s hardware separated in the region;
+    - Each datacenter has its own resources, like energy and network;
+    - They are connected with optical fiber wires.
+- Region Pairs:
+    - At least 300 miles between regions;
+    - Automatic replication for some services;
+    - Region recovery prioritized in case of interruption;
+    - Every region has its pair.
+- Azure Sovereign Regions:
+    - Exclusive for USA governmental services:
+        - Physically isolated and only accessible for authorized personnel.
+    - Exclusive for China:
+        - Also isolated and operated by 21Vianet;
+        - All data remain inside China for conformity.
+- Azure Resources:
+    - Virtual Machines, Storage, Virtual Networks, Application Services, SQL Databases, Functions;
+    - Resources Groups:
+        - A container to manage resources as a unit;
+        - Resources can only exist in one group;
+        - Resources can exist in different regions;
+        - Can be moved to other groups;
+        - Applications can use several groups.
+- Azure Subscriptions:
+    - An account can contain many subscriptions, but a subscription can only be associated to one account.
+    - For Azure accounts authentication and authorization;
+    - For billing categorization;
+    - Management Groups:
+        - Can include many subscriptions;
+        - Allow hierarchy policies control.
