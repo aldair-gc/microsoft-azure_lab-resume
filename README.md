@@ -20,4 +20,9 @@ This repository contains the brief notes of what was leaned at DIO development l
 - Software as a Service
     - Existing applications.
     - Users pay for what they use.
+ 
+
+## Shared Responsability Model
+
+<img alt="NextLevelWeek" title="#NextLevelWeek" src="./shared_responsability_model.png" />
 
