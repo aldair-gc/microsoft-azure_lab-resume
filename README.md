@@ -26,6 +26,7 @@ This repository contains the brief notes of what was leaned at DIO development l
 
 <img alt="NextLevelWeek" title="#NextLevelWeek" src="./shared_responsability_model.png" />
 
+
 ## Azure Architecture Components
 
 - Regions:
@@ -63,3 +64,34 @@ This repository contains the brief notes of what was leaned at DIO development l
     - Management Groups:
         - Can include many subscriptions;
         - Allow hierarchy policies control.
+
+
+## Setting up Azure Virtual Machine Resources and Customizations
+
+- Create Customized Virtual Machine:
+    - Choose region;
+    - Create availability set;
+    - Azure Spot discount;
+    - Select VM Size (processing power, memory, and storage capacity);
+    - It’s also possible to choose a predefined setup for some known solutions;
+    - Choose which ports will be open;
+    - Set disks to be excluded with VM;
+    - Possibility to select the same disk in many VMs;
+    - Create a virtual network;
+    - Set public IP and NIC to be excluded with VM;
+    - Set auto-shutdown, backup, SO updates;
+    - Set monitoring tools for alerts, diagnostics and integrity;
+    - Add extensions;
+    - Add tags;
+    - Check price and confirm creation.
+- Azure Virtual Desktop:
+    - Create Host;
+    - Validation Environment;
+    - Session type: Personal or Pool;
+    - Load Balancing;
+    - Session limit.
+- Function App:
+    - Set code or container image;
+    - Runtime stack;
+- Region and OS.
+
