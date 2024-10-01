@@ -66,6 +66,25 @@ This repository contains the brief notes of what was leaned at DIO development l
         - Allow hierarchy policies control.
 
 
+## Building Architectures in Azure
+
+- Explore Azure datacenters around the world;
+- Azure Regions:
+    - Data residency;
+    - Data replication;
+- Resource Groups:
+    - Choose region;
+    - Activity Log;
+    - IAM (access control);
+    - Tags;
+    - Resources Viewer;
+    - Events;
+    - Prices;
+    - Metrics.
+- Virtual Network:
+    - Automation template;
+
+
 ## Setting up Azure Virtual Machine Resources and Customizations
 
 - Create Customized Virtual Machine:
