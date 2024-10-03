@@ -114,3 +114,59 @@ This repository contains the brief notes of what was leaned at DIO development l
     - Runtime stack;
 - Region and OS.
 
+##  Storage Accounts
+
+- Registration:
+    - Name must be unique in the platform;
+    - It must be 3 to 24 characters long, and can contain only lowercase letters and numbers;
+- Performance:
+    - Standard: general usage;
+    - Premium: lower latency.
+
+ ### Storage Redundancy
+    - LRS (locally-redundant storage):
+        - Lower-cost with basic protection against server rack and drive failures;
+        - Recommended for non-critical scenarios;
+        - 3 copies on the same datacenter at primary region;
+        - Durability: 11 nines.
+    - GRS (geo-redundant storage):
+        - Intermediate option with failover capabilitier in a secondary region;
+        - Recommended for backup scenarios;
+        - 1 datacenter at primary region, and 1 copy in a secondary region;
+        - Durability: 12 nines.
+    - ZRS (zore-redundant storate):
+        - Intermediate option with protection against datacenter-level failures;
+        - Recommended for hight availability scenarios;
+        - 3 copies at primary region, each in a different datacenter;
+        - Durability: 16 nines.
+    - GZRS (geo-zone-redundant storage):
+        - Optimal data protection solution that includes the offerings of both GRS and ZRS;
+        - Recommended for critical data scenarios;
+        - ZRS strategy at origin and GRS at destination;
+        - 3 availability zones at primary region, and 1 datacenter at secondary region;
+        - Durability: 16 nines.
+
+### Azure Storage Services
+- Public Endpoint:
+    - https://<storage-account-name>.<resource-type>.core.windows.net
+- Access Layers:
+    - Frequent: optimized for files frequently accessed;
+    - Sporadic: optimized for lower frequency access, and up to 30 days;
+    - Cold: optimized for few accessed files, and at least 90 days;
+    - Deep Archive: optimized for rarely accessed files, and at least 180 days.
+
+### Migrations
+
+- Azure Data Box:
+    - Data Box Disk: up to 8TB;
+    - Data Box: up to 80TB;
+    - Heavy Data Box: up to 800TB.
+- AzCopy:
+    - Command Prompt;
+    - To copy blobs or files to or from a storage account;
+    - One direction sync.
+- Storage Management:
+    - Graphical Interface (similar to Windows Explorer);
+    - Compatible with Windows, MacOS and Linux;
+    - Bi direction sync;
+    - With cache protocols
