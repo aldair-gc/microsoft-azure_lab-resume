@@ -124,27 +124,27 @@ This repository contains the brief notes of what was leaned at DIO development l
     - Premium: lower latency.
 
  ### Storage Redundancy
-    - LRS (locally-redundant storage):
-        - Lower-cost with basic protection against server rack and drive failures;
-        - Recommended for non-critical scenarios;
-        - 3 copies on the same datacenter at primary region;
-        - Durability: 11 nines.
-    - GRS (geo-redundant storage):
-        - Intermediate option with failover capabilitier in a secondary region;
-        - Recommended for backup scenarios;
-        - 1 datacenter at primary region, and 1 copy in a secondary region;
-        - Durability: 12 nines.
-    - ZRS (zore-redundant storate):
-        - Intermediate option with protection against datacenter-level failures;
-        - Recommended for hight availability scenarios;
-        - 3 copies at primary region, each in a different datacenter;
-        - Durability: 16 nines.
-    - GZRS (geo-zone-redundant storage):
-        - Optimal data protection solution that includes the offerings of both GRS and ZRS;
-        - Recommended for critical data scenarios;
-        - ZRS strategy at origin and GRS at destination;
-        - 3 availability zones at primary region, and 1 datacenter at secondary region;
-        - Durability: 16 nines.
+- LRS (locally-redundant storage):
+    - Lower-cost with basic protection against server rack and drive failures;
+    - Recommended for non-critical scenarios;
+    - 3 copies on the same datacenter at primary region;
+    - Durability: 11 nines.
+- GRS (geo-redundant storage):
+    - Intermediate option with failover capabilitier in a secondary region;
+    - Recommended for backup scenarios;
+    - 1 datacenter at primary region, and 1 copy in a secondary region;
+    - Durability: 12 nines.
+- ZRS (zore-redundant storate):
+    - Intermediate option with protection against datacenter-level failures;
+    - Recommended for hight availability scenarios;
+    - 3 copies at primary region, each in a different datacenter;
+    - Durability: 16 nines.
+- GZRS (geo-zone-redundant storage):
+    - Optimal data protection solution that includes the offerings of both GRS and ZRS;
+    - Recommended for critical data scenarios;
+    - ZRS strategy at origin and GRS at destination;
+    - 3 availability zones at primary region, and 1 datacenter at secondary region;
+    - Durability: 16 nines.
 
 ### Azure Storage Services
 - Public Endpoint:
@@ -170,3 +170,43 @@ This repository contains the brief notes of what was leaned at DIO development l
     - Compatible with Windows, MacOS and Linux;
     - Bi direction sync;
     - With cache protocols
+
+
+## Identity, Access, and Security
+
+### Microsoft Entra ID
+- Authentication;
+- SSO (Single Sign On);
+- Apps manager;
+- Microsoft Entra External ID:
+    - B2C (Business to Customer):
+        - Published app customers.
+    - B2B (Business to Business)
+        - For partners, providers, other colaborators.
+- Devices management;
+- MFA (Multi-Factorial authentication)
+    - Something you know;
+    - Something you own;
+    - Something you are.
+
+### Conditional Access
+- User/Group association;
+- Local IP address;
+- Device;
+- App;
+- Risk detection.
+
+### Function Based Acesss Control
+- Fine granularity access management:
+    - RBAC (Role Based Access Control).
+- Give only relevant privileges to specific teams;
+- Enable the access to Azure portal and Resources Access Control:
+    - Authorizations are inheritable.
+- Zero trust
+- Full protection
+    - Local access, identity and access, perimeter, network, computing, application, data.
+- Microsoft Defender for Cloud:
+    - Security recomendations;
+    - Malware detect/block;
+    - Analise and identify potential attacks;
+    - Just-in-time port control.
