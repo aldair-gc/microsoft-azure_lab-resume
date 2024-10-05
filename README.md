@@ -210,3 +210,45 @@ This repository contains the brief notes of what was leaned at DIO development l
     - Malware detect/block;
     - Analise and identify potential attacks;
     - Just-in-time port control.
+
+
+## Expenses Management
+
+### Factors that affect expenses:
+- Resource type;
+- Consumption:
+    - Pay As You Go;
+    - Reserved.
+- Maintenance;
+- Geographic localization;
+- Network traffic;
+- Subscription.
+
+### Azure Marketplace
+- Freeware container platforms;
+- VM and DB images;
+- Compilation softwares and apps deployment;
+- Developer tools;
+- More than 10k items;
+- Assistance with third party software is not provided by Microsoft!
+
+### Estimated Price Calculator
+- Options available:
+    - Region;
+    - Layer;
+    - Billing;
+    - Support;
+    - Agreements;
+    - Development/Trial;
+- TCO (Total Cost Ownership):
+    - Tool to estimate the economy for the migration to Azure;
+    - Compares local structure spendings with Azure's cloud products and services prices;
+- Azure Expenses Management
+    - Billing reports;
+    - Define budget;
+    - Limit alert;
+    - Recommendations;
+
+### Tags
+- Azure resources optional metadata (pair name:value);
+- Usefull for billing organization;
