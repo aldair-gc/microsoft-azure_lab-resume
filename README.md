@@ -149,7 +149,7 @@ This repository contains the brief notes of what was leaned at DIO development l
 ### Azure Storage Services
 - Public Endpoint:
     - https://<storage-account-name>.<resource-type>.core.windows.net
-- Access Layers:
+- Access Tiers:
     - Frequent: optimized for files frequently accessed;
     - Sporadic: optimized for lower frequency access, and up to 30 days;
     - Cold: optimized for few accessed files, and at least 90 days;
@@ -212,9 +212,9 @@ This repository contains the brief notes of what was leaned at DIO development l
     - Just-in-time port control.
 
 
-## Expenses Management
+## Cost Management
 
-### Factors that affect expenses:
+### Factors that affect costs:
 - Resource type;
 - Consumption:
     - Pay As You Go;
@@ -235,7 +235,7 @@ This repository contains the brief notes of what was leaned at DIO development l
 ### Estimated Price Calculator
 - Options available:
     - Region;
-    - Layer;
+    - Tier;
     - Billing;
     - Support;
     - Agreements;
