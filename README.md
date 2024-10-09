@@ -252,3 +252,25 @@ This repository contains the brief notes of what was leaned at DIO development l
 ### Tags
 - Azure resources optional metadata (pair name:value);
 - Usefull for billing organization;
+
+
+## Governance and Compliance
+
+### Azure Policy
+- Imposes rules;
+- Verifies and identifies Azure resources that do not comply with policies;
+- Gives policy definitions and integrated initiatives, categorized.
+
+### Resources lock
+- Protects Azure resources from accidental exclusion or modification;
+- Manages locks in subscriptions, resources groups, or individual resource tiers.
+
+### Service Trust Portal
+- How Microsoft cloud services protect clients data, and how clients can manage cloud data security and compliance for their organization.
+
+### Microsoft Pureview
+- Management of governance, risk and compliance;
+- Insights about local data, multicloud, and SAS;
+- Automated data discovery;
+- Classified data classification;
+- Full data overview;
