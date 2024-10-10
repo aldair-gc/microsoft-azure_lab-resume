@@ -274,3 +274,22 @@ This repository contains the brief notes of what was leaned at DIO development l
 - Automated data discovery;
 - Classified data classification;
 - Full data overview;
+
+
+## Management and Deployment Tools
+
+## Tools to interact with Azure
+- Azure Portal;
+- Azure Cloud Shell:
+    - Azure PowerShell;
+    - CLI (Command Line Interface).
+
+## Azure Arc
+- Manage external resources (on premises, other providers) from Azure.
+
+## ARM (Azure Resource Manager)
+- A layer available to manage Azure subscription resources.
+- ARM Models:
+    - Resource Manager Model;
+    - No model code Infrastructure.
+- Bicep.
