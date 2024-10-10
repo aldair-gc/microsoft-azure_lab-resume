@@ -278,16 +278,16 @@ This repository contains the brief notes of what was leaned at DIO development l
 
 ## Management and Deployment Tools
 
-## Tools to interact with Azure
+### Tools to interact with Azure
 - Azure Portal;
 - Azure Cloud Shell:
     - Azure PowerShell;
     - CLI (Command Line Interface).
 
-## Azure Arc
+### Azure Arc
 - Manage external resources (on premises, other providers) from Azure.
 
-## ARM (Azure Resource Manager)
+### ARM (Azure Resource Manager)
 - A layer available to manage Azure subscription resources.
 - ARM Models:
     - Resource Manager Model;
