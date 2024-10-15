@@ -293,3 +293,25 @@ This repository contains the brief notes of what was leaned at DIO development l
     - Resource Manager Model;
     - No model code Infrastructure.
 - Bicep.
+
+
+# Monitoring Tools
+
+## Azure Assistant
+
+- Trust, Security, Performance, Cust, Operational Excellence.
+
+
+## Azure Service Integrity
+
+A collection of services to monitor Azure's general status;
+- Focused on only used regions;
+- Resource Health: Individual analysis for resources.
+
+
+## Azure Monitor
+
+- Focused on availability and performance;
+- Collects, analysis and works with local and cloud environment data;
+- Logs analitics;
+- Application insights.
